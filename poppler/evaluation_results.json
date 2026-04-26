@@ -1,0 +1,118 @@
+{
+  "ats_scoring": {
+    "metric_type": "ats_scoring",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "specificity": 1.0,
+    "mse": 5.298000000000003,
+    "rmse": 2.301738473415258,
+    "mae": 2.1800000000000006,
+    "roc_auc": 1.0,
+    "threshold": 70.0,
+    "true_positives": 6,
+    "true_negatives": 4,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "samples": 10
+  },
+  "keyword_detection": {
+    "metric_type": "keyword_detection",
+    "precision": 0.9473684210526315,
+    "recall": 0.782608695652174,
+    "f1_score": 0.8571428571428571,
+    "correct_detections": 18,
+    "total_predictions": 19,
+    "total_relevant": 23,
+    "samples": 5
+  },
+  "skill_gap": {
+    "metric_type": "skill_gap_analysis",
+    "precision": 0.9473684210526315,
+    "recall": 0.782608695652174,
+    "f1_score": 0.8571428571428571,
+    "correct_gaps": 18,
+    "total_predicted_gaps": 19,
+    "total_relevant_gaps": 23,
+    "samples": 5
+  },
+  "classification": {
+    "metric_type": "resume_classification",
+    "accuracy": 0.7777777777777778,
+    "precision_macro": 0.6428571428571429,
+    "recall_macro": 0.6428571428571429,
+    "f1_score_macro": 0.619047619047619,
+    "precision_weighted": 0.8333333333333334,
+    "recall_weighted": 0.7777777777777778,
+    "f1_score_weighted": 0.7777777777777778,
+    "per_class_metrics": {
+      "Data Analyst": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Data Scientist": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 1.0
+      },
+      "DevOps Engineer": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 2.0
+      },
+      "Machine Learning Engineer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Product Manager": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "QA Engineer": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Software Engineer": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "accuracy": 0.7777777777777778,
+      "macro avg": {
+        "precision": 0.6428571428571429,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.619047619047619,
+        "support": 9.0
+      },
+      "weighted avg": {
+        "precision": 0.8333333333333334,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.7777777777777778,
+        "support": 9.0
+      }
+    },
+    "samples": 9,
+    "num_classes": 7
+  },
+  "document_quality": {
+    "metric_type": "document_quality",
+    "mse": 5.298000000000003,
+    "rmse": 2.301738473415258,
+    "mae": 2.1800000000000006,
+    "correlation": 0.9875505653684609,
+    "r_squared": 0.9514401594830549,
+    "samples": 10
+  }
+}

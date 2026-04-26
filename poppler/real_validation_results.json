@@ -1,0 +1,29 @@
+{
+  "ats_scoring": {
+    "accuracy": 0.664,
+    "precision": 0.6626506024096386,
+    "recall": 1.0,
+    "f1_score": 0.7971014492753623,
+    "samples": 250
+  },
+  "keyword_detection": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "samples": 751
+  },
+  "classification": {
+    "accuracy": 0.684,
+    "samples": 250
+  },
+  "quality": {
+    "mae": 23.148,
+    "rmse": 26.69898874489444,
+    "samples": 250
+  },
+  "overall": {
+    "total_resumes_validated": 250,
+    "timestamp": "2026-01-20T22:10:33.155490"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-20T22:18:25.121885",
+  "overall_score": 0.8773280574624966,
+  "average_accuracy": 0.8888888888888888,
+  "average_precision": 0.9320175438596491,
+  "average_recall": 0.8550724637681159,
+  "average_f1": 0.8333333333333333,
+  "rating": "\u2b50\u2b50\u2b50\u2b50 Very Good",
+  "components": {
+    "ats_scoring": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "keyword_detection": {
+      "precision": 0.9473684210526315,
+      "f1_score": 0.8571428571428571
+    },
+    "skill_gap": {
+      "f1_score": 0.8571428571428571
+    },
+    "classification": {
+      "accuracy": 0.7777777777777778,
+      "f1_score": 0.619047619047619
+    }
+  }
+}
